@@ -12,7 +12,6 @@ function App() {
   const [status,setStatus] = useState(0);
   
   const start = () => {
-    run();
     setStatus(1);
     setTimer(setInterval(run, 1000));
   }
